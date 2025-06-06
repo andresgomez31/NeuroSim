@@ -4,7 +4,7 @@
 
 ---
 
-## 🧠 ¿Qué es NeuroSim?
+## ¿Qué es NeuroSim?
 
 NeuroSim es un motor especializado en **redes neuronales densas (fully connected)**, con soporte completo para:
 
@@ -18,7 +18,7 @@ Este motor busca demostrar cómo un backend optimizado puede alcanzar gran efici
 
 ---
 
-## 🚀 ¿Qué lo hace diferente?
+## ¿Qué lo hace diferente?
 
 | Característica               | NeuroSim                         | PyTorch / TensorFlow            |
 |-----------------------------|----------------------------------|---------------------------------|
@@ -46,7 +46,7 @@ Este motor busca demostrar cómo un backend optimizado puede alcanzar gran efici
 
 ---
 
-## 🧪 Casos de uso
+## Casos de uso
 
 - Clasificación de imágenes (por ejemplo, MNIST, FashionMNIST)
 - Clasificación tabular multiclase o binaria
@@ -55,7 +55,7 @@ Este motor busca demostrar cómo un backend optimizado puede alcanzar gran efici
 
 ---
 
-## 📦 Instalación
+## Instalación
 
 Requiere:
 
@@ -65,7 +65,7 @@ Requiere:
 - pybind11
 
 ```bash
-git clone https://github.com/tuusuario/NeuroSim.git
+git clone https://github.com/andresgomez31/NeuroSim.git
 cd NeuroSim
 mkdir build && cd build
 cmake ..
@@ -73,6 +73,7 @@ make -j$(nproc)
 ```
 
 En Python:
+
 ```bash
 import neurosim
 
@@ -81,12 +82,12 @@ model.train(...)
 preds = model.predict(...)
 ```
 
-## 📚 En desarrollo futuro
+## En desarrollo futuro
 
 - Entrenamiento multinodo
 - Compilación a modelos estáticos para microcontroladores
 - Simulador de retropropagación visual
 - Modo embedded-only para inferencia portable
 
-🧑‍💻 Autor
+## Autor
 Desarrollado por Andres Gomez Moreno, como proyecto de aprendizaje avanzado en computación de alto rendimiento, inteligencia artificial y diseño de software eficiente.
