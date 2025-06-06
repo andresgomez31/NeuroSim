@@ -74,9 +74,6 @@ make -j$(nproc)
 
 En Python:
 ```bash
-python
-Copiar
-Editar
 import neurosim
 
 model = neurosim.Model(...)
